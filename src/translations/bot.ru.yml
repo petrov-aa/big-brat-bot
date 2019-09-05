@@ -1,0 +1,10 @@
+config:
+  chat_id_not_specified: Не указан идентификатор чата
+  token_not_specified: Не указан токен бота
+  users_not_specified: Братья не указаны
+  run_method_not_specified: Не указан способ запуска бота
+bot:
+  start: |-
+    Привет, я выдаю админки в чате братья
+  hi: Ну привет
+  admin_restored: Вернул тебе админку, брат
