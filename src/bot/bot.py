@@ -8,6 +8,7 @@ if config.APP_BOT_PROXY is not None:
 bot = TeleBot(config.APP_BOT_TOKEN)
 me = bot.get_me()
 
+# Бот пишет в чат "Ну привет" когда запускается
 bot.send_message(config.APP_CHAT_ID, t('bot.bot.hi'))
 
 
